@@ -12,4 +12,4 @@ for para in docx.paragraphs:
         print(num, para.text)
 print(len(num))
 
-document.save('sample.docx')
+document.save('sample_answer.docx')
