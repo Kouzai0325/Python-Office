@@ -7,9 +7,12 @@ document.add_paragraph('csgo')
 
 document.add_picture("a.png")
 
-for para in docx.paragraphs:
+num = 0
+for para in document.paragraphs:
         num = num + 1
         print(num, para.text)
-print(len(num))
+print(num)
 
+doc =document("sample.docx")
+print(len(doc))
 document.save('sample_answer.docx')
